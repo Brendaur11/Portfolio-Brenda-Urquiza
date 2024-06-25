@@ -2,13 +2,13 @@ const EXPERIENCES = [
     {
         tittle: "Help Desk Support",
         company: "JLA Argentina",
-        description: "Me desempeño en soporte técnico a los usuarios; gestión de incidentes y requerimientos a través de herramienta de tickets; creación de instructivos; alta, modificación y baja de usuarios.",
-        time: "Actualmente..."
+        description: "I work in technical support for users; managing incidents and requests through a ticketing tool; creating guides; user account setup, modification, and termination.",
+        time: "At present"
     },
     {
         tittle: "Dependiente de Aduana",
         company: "Ines Verstraete",
-        description: "Administración de documentos de exportación e importación. Constante comunicación e interacción con aduana.",
+        description: "Management of export and import documents. Continuous communication and interaction with customs.",
         time: "2020 - 2023",
     },
 ];

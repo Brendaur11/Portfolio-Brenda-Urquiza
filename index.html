@@ -61,7 +61,7 @@
     <div style="background-attachment: fixed; background-color: #061535;" id="about-container"></div>
 
     <!-- EXPIRIENCES -->
-    <section style="height: 600px; padding: 0 !important; " class="section-experience" id="experiences">
+    <section style="height: 600px; padding: 0 !important; " class="container section section-experience mx-auto" id="experiences">
       <div class="about-tittle mt-8" id="about-tittle" >
         <h2 class="heading">Experi<span>ences</span></h2>
       </div>
@@ -71,7 +71,7 @@
     </section>
 
     <!-- SKILLS -->
-    <section class="relative" style="background-attachment: fixed; background-color: #061535;" id="skills">
+    <section class="section relative" style="background-attachment: fixed; background-color: #061535;" id="skills">
       <div class="about-tittle" id="about-tittle">
         <h2 class="heading">Ski<span>lls</span></h2>
       </div>
@@ -156,43 +156,34 @@
       </div>
     </section>
 
-    <!-- PROYECTS AND CERTIFICATES -->
-    <section style="background-attachment: fixed;" id="portfolio" >
+    <!-- PORTFOLIO -->
+    <section class="section undefined scroll-m-20 w-full mx-auto container lg:max-w-4xl md:max-w-2xl" style="background-attachment: fixed;" id="portfolio" >
       <div class="about-tittle" id="about-tittle">
         <h2 class="heading">Port<span>folio</span></h2>
       </div>
-
-      <div class="container px-5 py-24 mx-auto">
-        <!-- <h1 class="text-2xl font-bold text-center text-blue-400 mb-4">Skills and Tools currently used</h1> -->
-        <!-- <div class="text-center mx-4 mb-8">
-          <p class="text-base leading-relaxed w-full mx-auto text-justify" id="text-skills">I delved into the world of development and was fascinated by its diversity. Through courses, I specialized in frontend development, mastering JavaScript and its tools. Throughout my work career, I have explored different technologies, highlighting the creation of dynamic web interfaces. Nowadays, I am focused on enhancing my skills in JavaScript and Tailwind CSS to develop innovative web experiences. My next paths to explore are React and Node.js.</p>
-        </div> -->
-
-        <div class="tarjetasProducto">
-          <div class="container mx-auto" id="container-portfolio">
-            <div class="seccion-inputs">
-              <div class="radio-inputs">
-                <label class="radio">
-                  <input type="radio" name="category" value="proyect" checked>
-                  <span class="name text-black">Proyects</span>
-                </label>
-                <label class="radio">
-                  <input type="radio" name="category" value="certificate">
-                  <span class="name text-black">Certificates</span>
-                </label>
-              </div>
+    
+      <div class="tarjetasProducto">
+        <div class="container mx-auto" id="container-portfolio">
+          <div class="seccion-inputs">
+            <div class="radio-inputs">
+              <label class="radio">
+                <input type="radio" name="category" value="proyect" checked>
+                <span class="name text-black">Proyects</span>
+              </label>
+              <label class="radio">
+                <input type="radio" name="category" value="certificate">
+                <span class="name text-black">Certificates</span>
+              </label>
             </div>
           </div>
-          
-          <div class="text-gray-600 body-font flex flex-col gap-y-16 justify-center align-items" id="tarjetasPortfolio"></div>
         </div>
+      </div>
+    
+      <div class="flex flex-col gap-y-16" id="tarjetasPortfolio"></div>
     </section>
 
-    <!-- end bg -->
-    <!-- <div class="relative h-full w-full bg-red"><div class="relative bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#f70800_30%,transparent_100%)]" style="height: 20rem; background-attachment: fixed;"></div></div> -->
-
-    <!-- Tarjetas skills -->
-    <section class="container py-24" id="afterSkills">
+    <!-- TARJETAS SKILLS-->
+    <section class="section container py-24 mx-auto" id="afterSkills">
       <div class="flex flex-wrap -m-4 text-center" id="tarjetasInfo">
         <div class="p-4 md:w-1/4 sm:w-1/2 w-full ">
           <div class="border-2 border-gray-200 px-1 py-6 rounded-lg" id="contenedor-Skills">
@@ -226,7 +217,7 @@
     </section>
 
     <!-- CONTACT -->
-    <section class="text-gray-600 body-font relative gradient-bg" id="contact">
+    <section class="section text-gray-600 body-font relative gradient-bg" id="contact">
       <div class="container px-5 py-24 mx-auto">
         <div class="flex flex-col text-center w-full mb-12">
           <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-200">Contact</h1>

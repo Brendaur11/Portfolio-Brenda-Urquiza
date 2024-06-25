@@ -6,16 +6,16 @@ document.addEventListener('DOMContentLoaded', () => {
         portfolioContainer.innerHTML = ''; // Limpiar el contenedor antes de añadir nuevas tarjetas
         proyectos.forEach(proyecto => {
             const nuevoProyecto = document.createElement("div");
-            nuevoProyecto.classList = "tarjeta lg:w-3/4 md:w-3/4 p-4 w-full mt-8 mx-auto"; // Asegúrate de que la clase 'tarjeta' se añade aquí
+            nuevoProyecto.classList = "tarjeta w-full"; // Ajuste de ancho a w-full
             nuevoProyecto.innerHTML = `
-            <div class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0">
-                <div class="rounded-lg h-48 w-96 overflow-hidden">
-                    <img alt="content" class="object-cover object-center h-full w-full" src="${proyecto.imagen}">
+            <div class="flex flex-col space-x-0 space-y-8 group md:flex-row md:space-x-8 md:space-y-0 "> <!-- Border added for debugging -->
+                <div class="rounded-lg h-62 w-full md:w-1/2 overflow-hidden"> <!-- Ajuste de ancho a md:w-1/2 -->
+                    <img alt="content" class="lg:border lg:border-gray-800 rounded-xl sm:rounded-xl object-cover object-center h-full w-full" src="${proyecto.imagen}">
                 </div>
-                <div class="p-4 md:w-3/5 sm:mb-0 mb-6">
+                <div class="p-4 w-full md:w-1/2 sm:mb-0 mb-6 "> <!-- Ajuste de ancho a md:w-1/2 -->
                     <h2 class="text-xl font-medium title-font text-gray-200 mt-5">${proyecto.titulo}</h2>
                     <h3 class="text-gray-400 text-xs tracking-widest title-font mb-1">${proyecto.categoria}</h3>
-                    <p class="text-base leading-relaxed mt-2">${proyecto.description}</p>
+                    <p class="text-base text-gray-400 leading-relaxed mt-2">${proyecto.description}</p>
                     <div class="buttons flex flex-wrap">
                         ${proyecto.links ? proyecto.links.map(link => `<a href="${link.href}"><button class="btnPortfolio mr-2"><i class='${link.icon}' style='color:#ffffff'></i></button></a>`).join('') : `<a href="${proyecto.link}"><button class="btnPortfolio mr-2"><i class='${proyecto.icon}' style='color:#ffffff'></i></button></a>`}
                     </div>
@@ -25,9 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
             portfolioContainer.appendChild(nuevoProyecto);
         });
     }
-
-
-    
 
     function filtrarTarjetasPorCategoria(categoria) {
         const tarjetas = document.querySelectorAll('.tarjeta');
