@@ -2,7 +2,7 @@ const proyectos = [
     {
         categoria: "CERTIFICATE",
         titulo: "JavaScript - Coderhouse",
-        imagen: "https://dummyimage.com/421x261",
+        imagen: "/assets/images/6564e50aa8aca64c84a4e2f1.png",
         description: "I gained solid knowledge in JavaScript, including DOM manipulation, event handling, asynchronous programming with promises and fetch API, and development of interactive web applications.",
         link: "https://www.coderhouse.com/ar/certificados/6564e50aa8aca64c84a4e2f1?lang",
         icon: "bx bx-link"
@@ -10,7 +10,7 @@ const proyectos = [
     {
         categoria: "CERTIFICATE",
         titulo: "Fundamentos de Redes - Udemy",
-        imagen: "https://dummyimage.com/421x261",
+        imagen: "/assets/images/UC-7d27dc22-d24a-45bc-af3a-c8ee1dfe821b.jpg",
         description: " I learned the basic concepts of computer networks, including types of networks, communication protocols, and basic configuration of network devices such as routers and switches.",
         link: "https://drive.google.com/file/d/1qEOWHRJTS8XIisWiumuqkGHFsKPktdQ3/view",
         icon: "bx bx-link"
@@ -18,7 +18,7 @@ const proyectos = [
     {
         categoria: "CERTIFICATE",
         titulo: "Microsoft Office 365 Administrator - Intertron",
-        imagen: "https://dummyimage.com/421x261",
+        imagen: "/assets/images/Microsoft Office 365 Administrator, Urquiza Brenda.jpg",
         description: "I gained skills in managing and administering Office 365, including user configuration, license management, and handling services such as Exchange, SharePoint, and Teams.",
         link: "https://drive.google.com/file/d/1qEOWHRJTS8XIisWiumuqkGHFsKPktdQ3/view",
         icon: "bx bx-link"
@@ -36,7 +36,7 @@ const proyectos = [
     {
         categoria: "PROYECT",
         titulo: "Tienda Coffee",
-        imagen: "https://dummyimage.com/423x263",
+        imagen: "assets/images/621shots_so.png",
         description: "Discover our café: a cozy spot where quality and flavor meet. Enjoy our exclusive coffees and delicious pastries, prepared with fresh ingredients and passion. Come and experience something unique in every cup!",
         links: [
             { href: "#", icon: "bx bx-link" },
