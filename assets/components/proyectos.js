@@ -2,7 +2,7 @@ const proyectos = [
     {
         categoria: "CERTIFICATE",
         titulo: "JavaScript - Coderhouse",
-        imagen: "/assets/images/6564e50aa8aca64c84a4e2f1.png",
+        imagen: "./assets/images/6564e50aa8aca64c84a4e2f1.png",
         description: "I gained solid knowledge in JavaScript, including DOM manipulation, event handling, asynchronous programming with promises and fetch API, and development of interactive web applications.",
         link: "https://www.coderhouse.com/ar/certificados/6564e50aa8aca64c84a4e2f1?lang",
         icon: "bx bx-link"
