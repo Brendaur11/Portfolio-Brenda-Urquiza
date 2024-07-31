@@ -10,7 +10,7 @@ const proyectos = [
     {
         categoria: "CERTIFICATE",
         titulo: "Fundamentos de Redes - Udemy",
-        imagen: "/assets/images/UC-7d27dc22-d24a-45bc-af3a-c8ee1dfe821b.jpg",
+        imagen: "./assets/images/UC-7d27dc22-d24a-45bc-af3a-c8ee1dfe821b.jpg",
         description: " I learned the basic concepts of computer networks, including types of networks, communication protocols, and basic configuration of network devices such as routers and switches.",
         link: "https://drive.google.com/file/d/1qEOWHRJTS8XIisWiumuqkGHFsKPktdQ3/view",
         icon: "bx bx-link"
@@ -18,7 +18,7 @@ const proyectos = [
     {
         categoria: "CERTIFICATE",
         titulo: "Microsoft Office 365 Administrator - Intertron",
-        imagen: "/assets/images/Microsoft Office 365 Administrator, Urquiza Brenda.jpg",
+        imagen: "./assets/images/Microsoft Office 365 Administrator, Urquiza Brenda.jpg",
         description: "I gained skills in managing and administering Office 365, including user configuration, license management, and handling services such as Exchange, SharePoint, and Teams.",
         link: "https://drive.google.com/file/d/1qEOWHRJTS8XIisWiumuqkGHFsKPktdQ3/view",
         icon: "bx bx-link"
