@@ -30,7 +30,7 @@ const proyectos = [
         description: "Explore my personal portfolio: a showcase of creativity and experience. Projects completed with JavaScript and Tailwind CSS. Discover innovation in every detail!",
         links: [
             { href: "#", icon: "bx bx-link" },
-            { href: "#", icon: "bx bxl-github" }
+            { href: "https://github.com/Brendaur11/Portfolio-Brenda-Urquiza", icon: "bx bxl-github" }
         ]
     },
     {
@@ -49,8 +49,8 @@ const proyectos = [
         imagen: "assets/images/231shots_so.png",
         description: "Explore our shopping cart: discover elegance and innovation with Apple iPhones and smartwatches. Enjoy an intuitive shopping experience with products designed for quality and style.",
         links: [
-            { href: "#", icon: "bx bx-link" },
-            { href: "#", icon: "bx bxl-github" }
+            { href: "https://brendaur11.github.io/Carrito-de-compras/", icon: "bx bx-link" },
+            { href: "https://github.com/Brendaur11/Carrito-de-compras", icon: "bx bxl-github" }
         ]
     },
     {
@@ -59,8 +59,8 @@ const proyectos = [
         imagen: "assets/images/853shots_so.png",
         description: "Simple HTML and CSS login and registration forms: minimalist design for seamless user interaction. Switch effortlessly between login and registration.",
         links: [
-            { href: "#", icon: "bx bx-link" },
-            { href: "#", icon: "bx bxl-github" }
+            { href: "https://brendaur11.github.io/Form-Login-Register/", icon: "bx bx-link" },
+            { href: "https://github.com/Brendaur11/Form-Login-Register", icon: "bx bxl-github" }
         ]
     }
 ];
