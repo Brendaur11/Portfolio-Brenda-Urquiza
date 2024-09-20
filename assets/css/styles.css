@@ -535,7 +535,7 @@ body::-webkit-scrollbar-thumb{
 .diffused-circle2{
     position: absolute;
     top: 200px; /* Ajusta según sea necesario */
-    left: -160px;
+    left: -180px;
     width: 450px; /* Ajusta el tamaño según sea necesario */
     height: 250px; /* Ajusta el tamaño según sea necesario */
     background: rgba(162, 119, 212, 0.568);
