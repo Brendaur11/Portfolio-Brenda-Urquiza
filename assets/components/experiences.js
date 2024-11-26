@@ -1,9 +1,15 @@
 const EXPERIENCES = [
     {
         tittle: "Help Desk Support",
+        company: "Prodeman SA",
+        description: "I work at a help desk, covering level 1 incident resolution across all IT areas and managing incidents and requests through a ticketing tool. I handle user onboarding, offboarding, and modifications, administering file servers, Microsoft 365, and other additional tasks.",
+        time: "At present"
+    },
+    {
+        tittle: "Help Desk Support",
         company: "JLA Argentina",
         description: "I work in technical support for users; managing incidents and requests through a ticketing tool; creating guides; user account setup, modification, and termination.",
-        time: "At present"
+        time: "2023-2024"
     },
     {
         tittle: "Dependiente de Aduana",
